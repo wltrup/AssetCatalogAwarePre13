@@ -1,8 +1,13 @@
 # AssetCatalogAwarePre13
+![](https://img.shields.io/badge/platforms-iOS%2011%20%7C%20tvOS%2011%20%7C%20watchOS%204-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetCatalogAwarePre13)
+![GitHub](https://img.shields.io/github/license/wltrup/AssetCatalogAwarePre13)
 
 ## What
 
-**AssetCatalogAwarePre13** is a Swift Package Manager package for iOS versions below 13.0, defining protocols and functions to access Strings, Images, and Colors, all in a type-safe manner. If you need to support iOS versions 13.0 and above, you might want to look at [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware), instead.
+**AssetCatalogAwarePre13** is a Swift Package Manager package for iOS/tvOS ( from 11.0 up to but not including 13.0) and watchOS (from 4.0 up to but not including 6.0), defining protocols and functions to access Strings, Images, and Colors, all in a type-safe manner. If you need to support iOS/tvOS (13.0 and above) or watchOS (6.0 and above), you might want to look at [AssetCatalogAware](https://github.com/wltrup/AssetCatalogAware), instead.
 
 An actual practical use of **AssetCatalogAwarePre13** is my [**AssetsPre13**](https://github.com/wltrup/AssetsPre13) framework, which also provides an example project for UIKit.
 
